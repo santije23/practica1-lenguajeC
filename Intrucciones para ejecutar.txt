@@ -1,2 +1,2 @@
 abrir carpeta desde visual code
-abrir la terminar y colocar ".\wcat 123.txt 1234.txt"
+abrir la terminar y colocar "./wcat prueba1.txt prueba1.txt"
