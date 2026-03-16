@@ -1,2 +1,3 @@
 abrir carpeta desde visual code
-abrir la terminar y colocar "./wcat prueba1.txt prueba1.txt"
+Una vez el codigo listo, debe abrir la terminal en la carpeta donde tiene el archivo, coloca y ejecuta "gcc wcat.c -o wcat"
+Una vez hecho el segundo punto ahora si ejecutaremos el programa con el siguiente comando "./wcat prueba1.txt prueba1.txt"
