@@ -10,7 +10,7 @@
 ## (b) Documentación de todas las funciones desarrolladas en el código.
 
 # AplicacionWzipWunzip
-- La funcion  **main(int argc, char *argv[])** se utiliza en ambas aplicaciones wzip y Wunzip con el fin de inicializar la aplicion y obtener el numero de argumentos, y el valor de los argumentos ingresados por consola cuando se ejecuta la aplicacion.
+- La funcion  **`main(int argc, char *argv[])`** se utiliza en ambas aplicaciones wzip y Wunzip con el fin de inicializar la aplicion y obtener el numero de argumentos, y el valor de los argumentos ingresados por consola cuando se ejecuta la aplicacion.
 
 -
 ## (c) Problemas presentados durante el desarrollo de la pr´actica y sus soluciones.
