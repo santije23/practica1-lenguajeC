@@ -44,6 +44,19 @@
 
 
 ## (c) Problemas presentados durante el desarrollo de la pr´actica y sus soluciones.
+
+1.  Uno de los principales problemas fue entender la forma en la que trabaja el lenguaje C, ya que veníamos de unos lenguajes de muy alto nivel o de muy bajo nivel, pero en este caso es un nivel intermedio en el cual es necesario combinar ambos conceptos. La solución a esta situación no viene de una implementación en concreto, sino más bien de la práctica y el uso constante del lenguaje.
+
+2. Otra situación que se presentó fue durante el desarrollo de la aplicación Wzip, específicamente en el caso en que solo se ingresaba el nombre del programa y el archivo a comprimir. En este escenario, se esperaba que el contenido del archivo comprimido se mostrara en pantalla; sin embargo, lo que se obtenía era un texto que aparentemente no correspondía al resultado esperado.
+
+La solución surgió a partir de la investigación y la comprensión del proceso de compresión. Se identificó que la primera parte del archivo comprimido correspondía a un entero de 4 bytes almacenado en formato binario. Debido a esto, al imprimirse directamente en pantalla, se mostraban caracteres que no eran legibles como texto convencional. Por lo tanto, se concluyó que este comportamiento no era un error, sino una consecuencia normal de cómo se estaban representando los datos en binario dentro del proceso de compresión.
+
 ## (d) Pruebas realizadas a los programas que verificaron su funcionalidad.
+
+# AplicacionWzipWunzip
+
+![wzip1](capturas/wzip1.png)
+
+
 ## (e) Un enlace a un video de 10 minutos donde se sustente el desarrollo.
 ## (f) Manifiesto de transparencia: En que puntos se apoyaron de la IA generativa.
