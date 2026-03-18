@@ -55,7 +55,7 @@ La solución surgió a partir de la investigación y la comprensión del proceso
 
 # AplicacionWzipWunzip
 
-![wzip1](capturas/wzip1.png)
+![wzip1](capturas/Wzip1.PNG)
 
 
 ## (e) Un enlace a un video de 10 minutos donde se sustente el desarrollo.
