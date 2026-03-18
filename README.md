@@ -25,6 +25,12 @@
 
 - En caso contrario, se escribe en la salida el número de repeticiones y el carácter en cuestión mediante la función **`fwrite(&count, sizeof(int), 1, stdout)`** y **`fwrite(&prev, sizeof(char), 1, stdout)`**. Por último, se cierra el archivo actual mediante la función **`fclose(f)`**.
 
+- Para el caso de la descompresión, iteramos cada uno de los archivos que sean pasados por la línea de comandos mediante un ciclo for **`for (int i = 1; i < argc; i++)`** se abre el archivo en modo lectura de binario, ya que el archivo fue comprimido en ese formato. Si el archivo no se puede abrir, lo verificamos mediante el condicional **`if (!f)`** o, en caso contrario, se crean las variables que representarán la cantidad de caracteres y el carácter en cuestión.
+
+- El algoritmo de descompresion consta de un ciclo while **`while (fread(&count, sizeof(int), 1, f) == 1)`** el cual a su vez tiene incluida otra funcion **`fread(&count, sizeof(int), 1, f)`**, el ciclo while se ejecutara mientras alla elementos en el archivo para leer, mientras que la funcion **`fread()`** se encargara de ir leyendo cada uno de los enteros de archivo, posterior a ello se incluye otra funcion **`fread(&c, sizeof(char), 1, f)`** la cual se encarga de ir leyendo el caracter asociado a la siguiente posicion del entero. Con esto se recorre un ciclo for para ir imprimiendo la descompresión en pantalla.
+
+
+
 ## (c) Problemas presentados durante el desarrollo de la pr´actica y sus soluciones.
 ## (d) Pruebas realizadas a los programas que verificaron su funcionalidad.
 ## (e) Un enlace a un video de 10 minutos donde se sustente el desarrollo.
