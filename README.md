@@ -49,14 +49,27 @@
 
 2. Otra situación que se presentó fue durante el desarrollo de la aplicación Wzip, específicamente en el caso en que solo se ingresaba el nombre del programa y el archivo a comprimir. En este escenario, se esperaba que el contenido del archivo comprimido se mostrara en pantalla; sin embargo, lo que se obtenía era un texto que aparentemente no correspondía al resultado esperado.
 
-La solución surgió a partir de la investigación y la comprensión del proceso de compresión. Se identificó que la primera parte del archivo comprimido correspondía a un entero de 4 bytes almacenado en formato binario. Debido a esto, al imprimirse directamente en pantalla, se mostraban caracteres que no eran legibles como texto convencional. Por lo tanto, se concluyó que este comportamiento no era un error, sino una consecuencia normal de cómo se estaban representando los datos en binario dentro del proceso de compresión.
+    La solución surgió a partir de la investigación y la comprensión del proceso de compresión. Se identificó que la primera parte del archivo comprimido correspondía a un entero de 4 bytes almacenado en formato binario. Debido a esto, al imprimirse directamente en pantalla, se mostraban caracteres que no eran legibles como texto convencional. Por lo tanto, se concluyó que este comportamiento no era un error, sino una consecuencia normal de cómo se estaban representando los datos en binario dentro del proceso de compresión.
 
 ## (d) Pruebas realizadas a los programas que verificaron su funcionalidad.
 
 # AplicacionWzipWunzip
 
+A continuación se observa la ejecución de la aplicación WinZip, en la cual se tiene en cuenta el mensaje de salida cuando solo se ingresa un solo término, cuando se ingresa 1 más archivos de búsqueda, al igual que el resultado de la descompresión.
+
 ![wzip1](capturas/Wzip1.PNG)
 
+![wzip2](capturas/Wzip2.PNG)
+
+![wzip3](capturas/Wzip3.PNG)
+
+![wzip4](capturas/Wzip4.PNG)
+
+![wzip5](capturas/Wzip5.PNG)
+
+![wzip6](capturas/Wzip6.PNG)
+
+![Wunzip6](capturas/Wunzip6.PNG)
 
 ## (e) Un enlace a un video de 10 minutos donde se sustente el desarrollo.
 ## (f) Manifiesto de transparencia: En que puntos se apoyaron de la IA generativa.
