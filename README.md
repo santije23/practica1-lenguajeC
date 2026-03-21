@@ -4,6 +4,7 @@
 
 
 ### Santiago Jiménez Escobar - santiago.jimeneze@udea.edu.co - C.C 1036959331
+### Emiro Moreno Soto - emiro.morenos@udea.edu.co - C.C 1001547311
 
 
 
