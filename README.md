@@ -10,6 +10,16 @@
 
 ## (b) Documentación de todas las funciones desarrolladas en el código.
 
+# AplicacionWcat
+
+-El programa inicia en la función main(int argc, char *argv[]), la cual permite obtener el número de argumentos ingresados y los nombres de los archivos enviados por línea de comandos. Inicialmente se verifica si no se ingresaron archivos mediante la condición if(argc < 2); en este caso, el programa simplemente termina su ejecución retornando 0, lo que indica una finalización correcta.
+
+-Posteriormente, se utiliza un ciclo for para recorrer cada uno de los archivos ingresados como argumentos. Para cada archivo, el programa intenta abrirlo en modo lectura utilizando la función fopen(). Si el archivo no puede abrirse, se muestra el mensaje "wcat: cannot open file" y el programa termina su ejecución utilizando exit(1), indicando que ocurrió un error.
+
+-Si el archivo se abre correctamente, el programa procede a leer su contenido línea por línea utilizando la función fgets(), almacenando temporalmente cada línea en un buffer de memoria. Cada línea leída es mostrada en pantalla mediante la función printf(), respetando el contenido original del archivo.
+
+-Finalmente, después de leer completamente cada archivo, se utiliza la función fclose() para cerrarlo y liberar los recursos utilizados. Una vez todos los archivos han sido procesados correctamente, el programa finaliza retornando 0, indicando una ejecución exitosa.
+
 # AplicacionWgrep
 
 - Se empieza utilizando la función **`main(int argc, char *argv[])`** la cual nos permite obtener la cantidad de argumentos y sus respectivos valores en un vector; posteriormente, si se ingresó un solo argumento correspondiente al nombre del archivo mediante el condicional **`if(argc==1)`** o si ingreso el nombre del archivo y el termino buscado mediante condicional **`else if(argc==2)`** en este caso se inician las variables necesarias para guardar el termino buscado y la linea que se imprimira por pantalla.
@@ -54,6 +64,10 @@
 
 ## (d) Pruebas realizadas a los programas que verificaron su funcionalidad.
 
+# AplicacionWcat
+A continuación se observa la ejecución de la aplicación Wcat, mostrando la lectura de uno o varios archivos, así como el comportamiento del programa cuando no se ingresan argumentos o cuando ocurre un error al abrir un archivo
+
+
 # AplicacionWzipWunzip
 
 A continuación se observa la ejecución de la aplicación WinZip, en la cual se tiene en cuenta el mensaje de salida cuando solo se ingresa un solo término, cuando se ingresa 1 más archivos de búsqueda, al igual que el resultado de la descompresión.
@@ -63,7 +77,6 @@ A continuación se observa la ejecución de la aplicación WinZip, en la cual se
 ![wzip2](capturas/Wzip2.PNG)
 
 ![wzip3](capturas/Wzip3.PNG)
-
 ![wzip4](capturas/Wzip4.PNG)
 
 ![wzip5](capturas/Wzip5.PNG)
@@ -71,6 +84,7 @@ A continuación se observa la ejecución de la aplicación WinZip, en la cual se
 ![wzip6](capturas/Wzip6.PNG)
 
 ![Wunzip6](capturas/Wunzip6.PNG)
+
 
 ## (e) Un enlace a un video de 10 minutos donde se sustente el desarrollo.
 ## (f) Manifiesto de transparencia: En que puntos se apoyaron de la IA generativa.
