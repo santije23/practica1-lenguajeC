@@ -12,13 +12,13 @@
 
 # AplicacionWcat
 
-- El programa inicia en la función main(int argc, char *argv[]), la cual permite obtener el número de argumentos ingresados y los nombres de los archivos enviados por línea de comandos. Inicialmente se verifica si no se ingresaron archivos mediante la condición if(argc < 2); en este caso, el programa simplemente termina su ejecución retornando 0, lo que indica una finalización correcta.
+- El programa inicia en la función **main(int argc, char *argv[])**, la cual permite obtener el número de argumentos ingresados y los nombres de los archivos enviados por línea de comandos. Inicialmente se verifica si no se ingresaron archivos mediante la condición **if(argc < 2);** en este caso, el programa simplemente termina su ejecución retornando **0**, lo que indica una finalización correcta.
 
-- Posteriormente, se utiliza un ciclo for para recorrer cada uno de los archivos ingresados como argumentos. Para cada archivo, el programa intenta abrirlo en modo lectura utilizando la función fopen(). Si el archivo no puede abrirse, se muestra el mensaje "wcat: cannot open file" y el programa termina su ejecución utilizando exit(1), indicando que ocurrió un error.
+- Posteriormente, se utiliza un ciclo for para recorrer cada uno de los archivos ingresados como argumentos. Para cada archivo, el programa intenta abrirlo en modo lectura utilizando la función **fopen()**. Si el archivo no puede abrirse, se muestra el mensaje **"wcat: cannot open file"** y el programa termina su ejecución utilizando **exit(1)**, indicando que ocurrió un error.
 
-- Si el archivo se abre correctamente, el programa procede a leer su contenido línea por línea utilizando la función fgets(), almacenando temporalmente cada línea en un buffer de memoria. Cada línea leída es mostrada en pantalla mediante la función printf(), respetando el contenido original del archivo.
+- Si el archivo se abre correctamente, el programa procede a leer su contenido línea por línea utilizando la función **fgets()**, almacenando temporalmente cada línea en un buffer de memoria. Cada línea leída es mostrada en pantalla mediante la función **printf()**, respetando el contenido original del archivo.
 
-- Finalmente, después de leer completamente cada archivo, se utiliza la función fclose() para cerrarlo y liberar los recursos utilizados. Una vez todos los archivos han sido procesados correctamente, el programa finaliza retornando 0, indicando una ejecución exitosa.
+- Finalmente, después de leer completamente cada archivo, se utiliza la función **fclose()** para cerrarlo y liberar los recursos utilizados. Una vez todos los archivos han sido procesados correctamente, el programa finaliza retornando **0**, indicando una ejecución exitosa.
 
 # AplicacionWgrep
 
