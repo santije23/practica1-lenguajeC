@@ -67,11 +67,12 @@
 # AplicacionWcat
 A continuación se observa la ejecución de la aplicación Wcat, mostrando la lectura de uno o varios archivos, así como el comportamiento del programa cuando no se ingresan argumentos o cuando ocurre un error al abrir un archivo
 
-
-# AplicacionWzipWunzip
 ![wzip1](capturas/wcat1.png)
 ![wzip1](capturas/wcat2.png)
-![wzip1](capturas/wcat.png)
+![wzip1](capturas/wcat3.png)
+
+
+# AplicacionWzipWunzip
 
 A continuación se observa la ejecución de la aplicación WinZip, en la cual se tiene en cuenta el mensaje de salida cuando solo se ingresa un solo término, cuando se ingresa 1 más archivos de búsqueda, al igual que el resultado de la descompresión.
 
