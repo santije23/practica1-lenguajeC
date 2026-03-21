@@ -69,6 +69,9 @@ A continuación se observa la ejecución de la aplicación Wcat, mostrando la le
 
 
 # AplicacionWzipWunzip
+![wzip1](capturas/wcat1.png)
+![wzip1](capturas/wcat2.png)
+![wzip1](capturas/wcat.png)
 
 A continuación se observa la ejecución de la aplicación WinZip, en la cual se tiene en cuenta el mensaje de salida cuando solo se ingresa un solo término, cuando se ingresa 1 más archivos de búsqueda, al igual que el resultado de la descompresión.
 
